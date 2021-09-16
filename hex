@@ -1,0 +1,9 @@
+import turtle
+colours=['red','purple','blue','green','yellow','orange']
+
+turtle.bgcolor('black')
+
+for x in range(360):
+	turtle.pencolor(colours[x%6])
+	turtle.forward(x)
+	turtle.left(59)
